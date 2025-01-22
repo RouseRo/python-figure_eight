@@ -174,7 +174,7 @@ def main():
         pygame.draw.circle(SCREEN, BODY_COLORS[2], pos3, 8)
 
         # Optional: Draw trails (simple implementation)
-        trail_length = 50  # Adjust for longer trails
+        trail_length = 75  # Adjust for longer trails
         for i in range(trail_length):
             idx = index - i * int(sim_speed)
             if idx < 0:
